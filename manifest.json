@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Request Helper",
+  "version": "1.0",
+  "description": "Extracts URLs from LeetCode and GitHub PR tabs and formats them.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
